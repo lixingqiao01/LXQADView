@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F83F82D22AE5A5430FEAC56 /* libPods-LXQADView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB9380057A864B009A47FB3 /* libPods-LXQADView.a */; };
+		EE3DC8FC1EFB86330025B8AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC8FB1EFB86330025B8AF /* main.m */; };
+		EE3DC8FF1EFB86330025B8AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC8FE1EFB86330025B8AF /* AppDelegate.m */; };
+		EE3DC9021EFB86330025B8AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC9011EFB86330025B8AF /* ViewController.m */; };
+		EE3DC9051EFB86330025B8AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3DC9031EFB86330025B8AF /* Main.storyboard */; };
+		EE3DC9071EFB86330025B8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3DC9061EFB86330025B8AF /* Assets.xcassets */; };
+		EE3DC90A1EFB86330025B8AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3DC9081EFB86330025B8AF /* LaunchScreen.storyboard */; };
+		EE3DC9151EFB86330025B8AF /* LXQADViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC9141EFB86330025B8AF /* LXQADViewTests.m */; };
+		EE3DC9201EFB86330025B8AF /* LXQADViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3DC91F1EFB86330025B8AF /* LXQADViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE3DC9111EFB86330025B8AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3DC8EF1EFB86330025B8AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE3DC8F61EFB86330025B8AF;
+			remoteInfo = LXQADView;
+		};
+		EE3DC91C1EFB86330025B8AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3DC8EF1EFB86330025B8AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE3DC8F61EFB86330025B8AF;
+			remoteInfo = LXQADView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EB9380057A864B009A47FB3 /* libPods-LXQADView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXQADView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD0C7BEA09229E3E9D0787C /* Pods-LXQADView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXQADView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXQADView/Pods-LXQADView.debug.xcconfig"; sourceTree = "<group>"; };
+		EE3DC8F71EFB86330025B8AF /* LXQADView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXQADView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3DC8FB1EFB86330025B8AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE3DC8FD1EFB86330025B8AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE3DC8FE1EFB86330025B8AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE3DC9001EFB86330025B8AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE3DC9011EFB86330025B8AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE3DC9041EFB86330025B8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE3DC9061EFB86330025B8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE3DC9091EFB86330025B8AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE3DC90B1EFB86330025B8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3DC9101EFB86330025B8AF /* LXQADViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXQADViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3DC9141EFB86330025B8AF /* LXQADViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQADViewTests.m; sourceTree = "<group>"; };
+		EE3DC9161EFB86330025B8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3DC91B1EFB86330025B8AF /* LXQADViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXQADViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3DC91F1EFB86330025B8AF /* LXQADViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQADViewUITests.m; sourceTree = "<group>"; };
+		EE3DC9211EFB86330025B8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8B48D3E5CA3162A2585023 /* Pods-LXQADView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXQADView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXQADView/Pods-LXQADView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE3DC8F41EFB86330025B8AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F83F82D22AE5A5430FEAC56 /* libPods-LXQADView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3DC90D1EFB86330025B8AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3DC9181EFB86330025B8AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7831A7B228CC6D590202A32F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EB9380057A864B009A47FB3 /* libPods-LXQADView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2D23B26314AADFFC36E3401 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AD0C7BEA09229E3E9D0787C /* Pods-LXQADView.debug.xcconfig */,
+				FC8B48D3E5CA3162A2585023 /* Pods-LXQADView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE3DC8EE1EFB86330025B8AF = {
+			isa = PBXGroup;
+			children = (
+				EE3DC8F91EFB86330025B8AF /* LXQADView */,
+				EE3DC9131EFB86330025B8AF /* LXQADViewTests */,
+				EE3DC91E1EFB86330025B8AF /* LXQADViewUITests */,
+				EE3DC8F81EFB86330025B8AF /* Products */,
+				C2D23B26314AADFFC36E3401 /* Pods */,
+				7831A7B228CC6D590202A32F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE3DC8F81EFB86330025B8AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DC8F71EFB86330025B8AF /* LXQADView.app */,
+				EE3DC9101EFB86330025B8AF /* LXQADViewTests.xctest */,
+				EE3DC91B1EFB86330025B8AF /* LXQADViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE3DC8F91EFB86330025B8AF /* LXQADView */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DC8FD1EFB86330025B8AF /* AppDelegate.h */,
+				EE3DC8FE1EFB86330025B8AF /* AppDelegate.m */,
+				EE3DC9001EFB86330025B8AF /* ViewController.h */,
+				EE3DC9011EFB86330025B8AF /* ViewController.m */,
+				EE3DC9031EFB86330025B8AF /* Main.storyboard */,
+				EE3DC9061EFB86330025B8AF /* Assets.xcassets */,
+				EE3DC9081EFB86330025B8AF /* LaunchScreen.storyboard */,
+				EE3DC90B1EFB86330025B8AF /* Info.plist */,
+				EE3DC8FA1EFB86330025B8AF /* Supporting Files */,
+			);
+			path = LXQADView;
+			sourceTree = "<group>";
+		};
+		EE3DC8FA1EFB86330025B8AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DC8FB1EFB86330025B8AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE3DC9131EFB86330025B8AF /* LXQADViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DC9141EFB86330025B8AF /* LXQADViewTests.m */,
+				EE3DC9161EFB86330025B8AF /* Info.plist */,
+			);
+			path = LXQADViewTests;
+			sourceTree = "<group>";
+		};
+		EE3DC91E1EFB86330025B8AF /* LXQADViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE3DC91F1EFB86330025B8AF /* LXQADViewUITests.m */,
+				EE3DC9211EFB86330025B8AF /* Info.plist */,
+			);
+			path = LXQADViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE3DC8F61EFB86330025B8AF /* LXQADView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3DC9241EFB86330025B8AF /* Build configuration list for PBXNativeTarget "LXQADView" */;
+			buildPhases = (
+				4EE139C6E38EA4C1FA68FA34 /* [CP] Check Pods Manifest.lock */,
+				EE3DC8F31EFB86330025B8AF /* Sources */,
+				EE3DC8F41EFB86330025B8AF /* Frameworks */,
+				EE3DC8F51EFB86330025B8AF /* Resources */,
+				49474F79D24A23DCF21BA11E /* [CP] Embed Pods Frameworks */,
+				2D9BA12F2EE7111F3F5D5EF8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXQADView;
+			productName = LXQADView;
+			productReference = EE3DC8F71EFB86330025B8AF /* LXQADView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE3DC90F1EFB86330025B8AF /* LXQADViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3DC9271EFB86330025B8AF /* Build configuration list for PBXNativeTarget "LXQADViewTests" */;
+			buildPhases = (
+				EE3DC90C1EFB86330025B8AF /* Sources */,
+				EE3DC90D1EFB86330025B8AF /* Frameworks */,
+				EE3DC90E1EFB86330025B8AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3DC9121EFB86330025B8AF /* PBXTargetDependency */,
+			);
+			name = LXQADViewTests;
+			productName = LXQADViewTests;
+			productReference = EE3DC9101EFB86330025B8AF /* LXQADViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE3DC91A1EFB86330025B8AF /* LXQADViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3DC92A1EFB86330025B8AF /* Build configuration list for PBXNativeTarget "LXQADViewUITests" */;
+			buildPhases = (
+				EE3DC9171EFB86330025B8AF /* Sources */,
+				EE3DC9181EFB86330025B8AF /* Frameworks */,
+				EE3DC9191EFB86330025B8AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3DC91D1EFB86330025B8AF /* PBXTargetDependency */,
+			);
+			name = LXQADViewUITests;
+			productName = LXQADViewUITests;
+			productReference = EE3DC91B1EFB86330025B8AF /* LXQADViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE3DC8EF1EFB86330025B8AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LXQ.inc;
+				TargetAttributes = {
+					EE3DC8F61EFB86330025B8AF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SQM25H9TT2;
+						ProvisioningStyle = Automatic;
+					};
+					EE3DC90F1EFB86330025B8AF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SQM25H9TT2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE3DC8F61EFB86330025B8AF;
+					};
+					EE3DC91A1EFB86330025B8AF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SQM25H9TT2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE3DC8F61EFB86330025B8AF;
+					};
+				};
+			};
+			buildConfigurationList = EE3DC8F21EFB86330025B8AF /* Build configuration list for PBXProject "LXQADView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE3DC8EE1EFB86330025B8AF;
+			productRefGroup = EE3DC8F81EFB86330025B8AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE3DC8F61EFB86330025B8AF /* LXQADView */,
+				EE3DC90F1EFB86330025B8AF /* LXQADViewTests */,
+				EE3DC91A1EFB86330025B8AF /* LXQADViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE3DC8F51EFB86330025B8AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3DC90A1EFB86330025B8AF /* LaunchScreen.storyboard in Resources */,
+				EE3DC9071EFB86330025B8AF /* Assets.xcassets in Resources */,
+				EE3DC9051EFB86330025B8AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3DC90E1EFB86330025B8AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3DC9191EFB86330025B8AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D9BA12F2EE7111F3F5D5EF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXQADView/Pods-LXQADView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49474F79D24A23DCF21BA11E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXQADView/Pods-LXQADView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EE139C6E38EA4C1FA68FA34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE3DC8F31EFB86330025B8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3DC9021EFB86330025B8AF /* ViewController.m in Sources */,
+				EE3DC8FF1EFB86330025B8AF /* AppDelegate.m in Sources */,
+				EE3DC8FC1EFB86330025B8AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3DC90C1EFB86330025B8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3DC9151EFB86330025B8AF /* LXQADViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3DC9171EFB86330025B8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3DC9201EFB86330025B8AF /* LXQADViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE3DC9121EFB86330025B8AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE3DC8F61EFB86330025B8AF /* LXQADView */;
+			targetProxy = EE3DC9111EFB86330025B8AF /* PBXContainerItemProxy */;
+		};
+		EE3DC91D1EFB86330025B8AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE3DC8F61EFB86330025B8AF /* LXQADView */;
+			targetProxy = EE3DC91C1EFB86330025B8AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE3DC9031EFB86330025B8AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3DC9041EFB86330025B8AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE3DC9081EFB86330025B8AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3DC9091EFB86330025B8AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE3DC9221EFB86330025B8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE3DC9231EFB86330025B8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE3DC9251EFB86330025B8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD0C7BEA09229E3E9D0787C /* Pods-LXQADView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SQM25H9TT2;
+				INFOPLIST_FILE = LXQADView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXQ.LXQADView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE3DC9261EFB86330025B8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8B48D3E5CA3162A2585023 /* Pods-LXQADView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SQM25H9TT2;
+				INFOPLIST_FILE = LXQADView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXQ.LXQADView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE3DC9281EFB86330025B8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SQM25H9TT2;
+				INFOPLIST_FILE = LXQADViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXQ.LXQADViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXQADView.app/LXQADView";
+			};
+			name = Debug;
+		};
+		EE3DC9291EFB86330025B8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SQM25H9TT2;
+				INFOPLIST_FILE = LXQADViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXQ.LXQADViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXQADView.app/LXQADView";
+			};
+			name = Release;
+		};
+		EE3DC92B1EFB86330025B8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SQM25H9TT2;
+				INFOPLIST_FILE = LXQADViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXQ.LXQADViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXQADView;
+			};
+			name = Debug;
+		};
+		EE3DC92C1EFB86330025B8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SQM25H9TT2;
+				INFOPLIST_FILE = LXQADViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXQ.LXQADViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXQADView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE3DC8F21EFB86330025B8AF /* Build configuration list for PBXProject "LXQADView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3DC9221EFB86330025B8AF /* Debug */,
+				EE3DC9231EFB86330025B8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3DC9241EFB86330025B8AF /* Build configuration list for PBXNativeTarget "LXQADView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3DC9251EFB86330025B8AF /* Debug */,
+				EE3DC9261EFB86330025B8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE3DC9271EFB86330025B8AF /* Build configuration list for PBXNativeTarget "LXQADViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3DC9281EFB86330025B8AF /* Debug */,
+				EE3DC9291EFB86330025B8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE3DC92A1EFB86330025B8AF /* Build configuration list for PBXNativeTarget "LXQADViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3DC92B1EFB86330025B8AF /* Debug */,
+				EE3DC92C1EFB86330025B8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE3DC8EF1EFB86330025B8AF /* Project object */;
+}
